@@ -1,0 +1,29 @@
+body{
+  margin: 0;
+  box-sizing: border-box;
+  background-image: linear-gradient(to right,rgb(248, 172, 172),rgb(174, 174, 248));
+  padding:0;
+}
+.height{
+  max-height: 100vh;
+}
+.vline{
+  width: 100%;
+  height: 5px;
+  background-color: red;
+}
+.hline{
+  width: 5px;
+  background-color: red;
+}
+.centerize{
+ margin-top: 5vh; 
+}
+.btn:focus,.btn:active{
+  outline: none !important;
+ box-shadow: none;
+}
+/* border not displayed after hide and unhide */
+#btnrst{
+  border: transparent;
+}

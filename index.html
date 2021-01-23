@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/bootstrap.min.css" />
+  <link rel="stylesheet" href="./tic.css" />
+</head>
+
+<body>
+  <header>
+    <div class="container-fluid text-center mt-3">
+      <h5 class="display-5 fw-bolder text-capitalize text-dark" id="finalmsg">click to play!</h5>
+      <p class="lead text-uppercase text-muted">you play as blue.</p>
+    </div>
+  </header>
+  <div class="container-fluid height ">
+    <div class="centerize">
+      <div class="row ">
+        <div class="col-lg-5 col-md-8 col-sm-10 mx-auto">
+          <div class="row g-0">
+            <div class="col"><button class="btn w-100 p-5 border-5 bg-light" id="b1"
+                onclick="btnChoice(this.id)"></button></div>
+            <div class="hline"></div>
+            <div class="col"><button class="btn w-100 p-5 border-5 bg-light" id="b2"
+                onclick="btnChoice(this.id)"></button></div>
+            <div class="hline"></div>
+            <div class="col"><button class="btn w-100 p-5 border-5 bg-light" id="b3"
+                onclick="btnChoice(this.id)"></button></div>
+          </div>
+          <div class="vline"></div>
+          <div class="row g-0">
+            <div class="col"><button class="btn w-100 p-5 border-5 bg-light" id="b4"
+                onclick="btnChoice(this.id)"></button></div>
+            <div class="hline"></div>
+            <div class="col"><button class="btn w-100 p-5 border-5 bg-light" id="b5"
+                onclick="btnChoice(this.id)"></button></div>
+            <div class="hline"></div>
+            <div class="col"><button class="btn w-100 p-5 border-5 bg-light" id="b6"
+                onclick="btnChoice(this.id)"></button></div>
+          </div>
+          <div class="vline"></div>
+          <div class="row g-0">
+            <div class="col"><button class="btn w-100 p-5 border-5 bg-light" id="b7"
+                onclick="btnChoice(this.id)"></button></div>
+            <div class="hline"></div>
+            <div class="col"><button class="btn w-100 p-5 border-5 bg-light" id="b8"
+                onclick="btnChoice(this.id)"></button></div>
+            <div class="hline"></div>
+            <div class="col"><button class="btn w-100 p-5 border-5 bg-light" id="b9"
+                onclick="btnChoice(this.id)"></button></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <div class="container-fluid">
+      <div class="row text-center justify-content-around">
+        <div class="col-lg-4 col-md-5 col-sm-3">
+          <h5 class="display-5 text-info text-capitalize mt-5">your score: <span id="manscore">0</span></h5>
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-3 ">
+          <button class="btn btn-warning mx-auto mt-4 visually-hidden" id="btnrst">Next Hand</button>
+        </div>
+        <div class="col-lg-4 col-md-5 col-sm-3">
+          <h5 class="display-5 text-success text-capitalize mt-5">bot score: <span id="pcscore">0</span></h5>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="./js/bootstrap.min.js"></script>
+  <script src="./tic.js"></script>
+
+</body>
+
+</html>
